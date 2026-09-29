@@ -1,0 +1,52 @@
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador De Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo"><h1>Gerenciador De Filmes e Séries</h1>
+    <button class="botao3" onclick="buscarItem()">Buscar série ou filme</button>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="index.html">Séries e Filmes</a>
+        <a href="index.html">Favoritos</a>
+    </nav>
+    </div>
+    <div class="p1">
+    <h5>Seus Filmes Assistidos</h5>
+    </div>
+
+    <div class="imagens">
+    <div class="Mártires"><img src="224772.jpg">
+    <h3>Martyrs</h3>
+    <p>2008 - Terror</p></div>
+    <div class="Iluminado"><img src="Iluminado.jpg">
+    <h3>O Iluminado</h3>
+    <p>1980 - Terror</p></div>
+    <div class="Clube"><img src="clube.jpg">
+    <h3>Clube da Luta</h3>
+    <p>1999 - Ação</p></div>
+    </div>
+
+    
+    <div class="todos">
+    <div class="botoes1"><div class="1"><button class="botao1" onclick="cadastrarNovoFilme()">Cadastrar novo</button></div>
+    
+    <div class="2"><button class="botao2" onclick="exibirTodosFilmes()">Exibir todos</button></div>
+    
+    <div class="4"><button class="botao4" onclick="deletarItemPorId()">Remover por ID</button></div>
+    </div>
+    <div class="botoes2">
+    <div class="5"><button class="botao5" onclick="deletarUltimo()">Remover último</button></div>
+    
+    <div class="6"><button class="botao6" onclick="deletarTodos()">Remover todos</button></div>
+    
+    <div class="7"><button class="botao7" onclick="exibirTotal()">Exibir total</button></div>
+    </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

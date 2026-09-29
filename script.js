@@ -75,7 +75,7 @@ function deletarItemPorId(){
 
 
  function deletarTodos() {
-    let confirmar = confirm("Tem certeza que deseja remover todos os itens?");
+    let confirmar = confirm("Tem certeza que deseja remover todos?");
 
     if (!confirmar) {
         
@@ -84,7 +84,7 @@ function deletarItemPorId(){
         alert("Não há filmes ou séries para remover");
     } else{
         Itens.length = 0;
-        alert("Todos os itens foram removidos")
+        alert("Todos foram removidos")
     }
 }
 
